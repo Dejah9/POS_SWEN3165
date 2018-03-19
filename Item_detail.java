@@ -7,7 +7,6 @@
  */
 public class Item_detail
 {
-    // instance variables - replace the example below with your own
     private boolean itemTaxIndicator;
     private double itemPrice;
     private String itemCode;
@@ -22,8 +21,6 @@ public class Item_detail
         this.itemPrice = item_price;
         this.itemTaxIndicator = item_taxIndicator;
         this.itemDescription = item_description;
-        
-
     }
 
     /**
@@ -44,13 +41,11 @@ public class Item_detail
 
     public boolean getItemTaxIndicator()
     {
-        // put your code here
         return this.itemTaxIndicator;
     }
 
     public String getItemDescription()
     {
-        // put your code here
         return this.itemDescription;
     }
 

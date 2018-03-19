@@ -13,12 +13,22 @@ import java.util.Scanner;
 
 
 public class Main {
-
+        
 
         public static void main(String[] args) {
             System.out.print("Welcome to POS");
-        
-        
+            ArrayList<Item_detail> items = new ArrayList<>();
+            items.add(new Item_detail("54634434343434", 65, false, "Flour"));
+            items.add(new Item_detail("43343434534535", 60, false, "Rice"));
+            items.add(new Item_detail("53435434534352", 230, false, "Chicken"));
+            items.add(new Item_detail("78545678695453", 60, false, "Oil"));
+            
+            InventoryDB db = new InventoryDB(items);
+            
+            
+            System.out.println(db.getItemDeatils("43343434534535"));
+            
+            
             System.out.println("Please choose your items, after the item please add its quantity");
             System.out.println("milk\n " +
                     "flour\n "+
