@@ -1,3 +1,7 @@
+package Database;
+
+import Classes.Item_detail;
+package Main;
 import java.util.ArrayList;
 /**
  * Write a description of class InventoryDB here.
@@ -7,9 +11,11 @@ import java.util.ArrayList;
  */
 public class InventoryDB{
     ArrayList<Item_detail> items;
+
     InventoryDB(ArrayList<Item_detail> items){
         this.items = items;
     }
+
     public Item_detail getItemDeatils(String itemCode){
         for(Item_detail i : this.items){
             if(i.getItemCode().equalsIgnoreCase(itemCode)){
@@ -18,7 +24,9 @@ public class InventoryDB{
         }
         return null;
     }
+
     public void addItem(Item_detail item){
         this.items.add(item);
     }
+    
 }

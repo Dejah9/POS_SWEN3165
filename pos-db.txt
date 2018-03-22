@@ -1,0 +1,10 @@
+1,50,N,Flour
+2,20,N,Rice
+3,100,Y,Oil
+4,900,Y,Pop-Tarts
+5,300,Y,Milk
+6,250,Y,Cheese
+7,180,Y,Ketchup
+8,10,Y,Biscuit
+9,5,Y,Bun-Bun
+10,1000,Y,Chicken
